@@ -146,7 +146,7 @@ function App() {
                                                                   onClick={() => setOpen(true)}/>}></Button>
                     </div>
                 </Header>
-                <Content style={{maxHeight: '90vh'}}>
+                <Content style={{maxHeight: '92vh'}}>
                     <Col className={`content-minify transition ${codeBlockMinify ? 'content-maximize' : ''}`} span={24}
                          style={{width: '100%'}}>
                         <ContentPage contentId={contentId}/>

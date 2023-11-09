@@ -26,7 +26,7 @@ export default function SaveModal({html, css, js, hasError, open, setOpen}: {
         <Modal width={'50%'} open={open}
                footer={null} onCancel={handleCancel}>
 
-            <Row>
+            <Row style={{marginTop:'50px'}}>
                 <Col xs={24} sm={24}>
                     <Form onFinish={(value) => onFinish(value)}
                           name="basic"
@@ -39,7 +39,7 @@ export default function SaveModal({html, css, js, hasError, open, setOpen}: {
                             <Divider></Divider>
                             <Form.Item style={{display: 'flex', justifyContent: 'flex-end'}}>
                                 <Button type={'primary'} key={'submit'} htmlType={'submit'}>
-                                    Submit
+                                    Save
                                 </Button>
                             </Form.Item>
                         </Col>

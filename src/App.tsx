@@ -1,9 +1,9 @@
 import React, {useEffect, useState} from 'react';
 import './App.css';
 import ReactAceEditor from "./ReactAceEditor";
-import {Button, Col, Layout, message, Modal, Row, Select, Space, Tag, Typography} from "antd";
+import {Button, Col, Layout, message, Row, Select, Space, Tag} from "antd";
 import {ContentPage} from "./ContentPage";
-import {Content, Footer, Header} from "antd/lib/layout/layout";
+import {Content, Header} from "antd/lib/layout/layout";
 import {
     CaretDownOutlined,
     CaretRightOutlined,
@@ -11,7 +11,6 @@ import {
     SaveOutlined,
 } from '@ant-design/icons';
 import SaveModal from './SaveModal';
-import "https://code.jquery.com/jquery-3.6.0.min.js";
 
 function App() {
 
